@@ -1,6 +1,6 @@
 # Rest-api 
 
-//api/getall/
+/api/getall/
 list of 20 movies
 
 /api/getone/:id
