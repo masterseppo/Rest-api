@@ -5,18 +5,14 @@ const movieSchema = new mongoose.Schema({
     type: String,
     required: 'This field is required'
   },
-  description: {
+  plot: {
     type: String,
     required: true
   },
-  category: {
+  genres: {
     type: Array,
     require: true
-  },
-  thumbnail: {
-    type: String,
-    required: true
-  }  
+  }
 });
 
 movieSchema.index({ "$**" : 'text' });
