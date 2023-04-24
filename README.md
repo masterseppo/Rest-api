@@ -1,17 +1,16 @@
-# Rest-api 
+# Rest-api
 
-/api/getall/
+http://localhost:3000/api/getall/
 list of 20 movies
 
-/api/getone/:id
+http://localhost:3000/api/getone/:id
 get single movie with given id
 
-/api/add/
+http://localhost:3000/api/add/
 adds a movie with name, description, category and thumbnail
 
-/api/update/:id
+http://localhost:3000/api/update/:id
 update single movies name
 
-/api/delete/:id
+http://localhost:3000/api/delete/:id
 delete movie with given id
-
